@@ -332,7 +332,7 @@ body::after{content:"";position:fixed;inset:0;z-index:50;pointer-events:none;opa
   </div>
   <div class="p-msg" id="pMsg" hidden>
     <b id="pMsgT"></b><p id="pMsgP"></p>
-    <div class="row"><button class="btn primary" type="button" id="pRetry">Try next source</button><a class="btn" id="pExt" target="_blank" rel="noopener">Open stream directly</a></div>
+    <div class="row"><button class="btn primary" type="button" id="pRetry">Try next source</button><a class="btn" id="pExt" target="_blank" rel="noopener">Open stream directly</a><a class="btn" id="pOff" target="_blank" rel="noopener" hidden>Official website</a></div>
   </div>
   <div class="p-bottom">
     <button class="btn" type="button" id="pPrev">&#9650; Previous</button>
@@ -542,32 +542,56 @@ function play(c,i){
   $("pSrcs").querySelectorAll("button").forEach(b=>b.onclick=()=>play(c,+b.dataset.i));
   load(c.s[ps][0]); poke();
 }
+const APPLE=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)||/^((?!chrome|crios|android|edg).)*safari/i.test(navigator.userAgent);
+const NATIVE=!!PV.canPlayType("application/vnd.apple.mpegurl");
+const HLSJS=!!(window.Hls&&Hls.isSupported());
+const OFFICIAL={"Rustavi 2":"https://rustavi2.ge","GDS TV":"https://gds.tv","TVC":"https://tvc.ge","Rioni TV":"https://rionitv.com","ATV":"https://atv.am","Kentron TV":"https://kentron.tv","Shant TV":"https://www.shanttv.com","Yerkir Media":"https://www.yerkirmedia.am","Armenia TV Satellite":"https://armeniatv.am"};
+function engines(){ const e=[]; if(APPLE&&NATIVE) e.push("native"); if(HLSJS) e.push("hlsjs"); if(NATIVE&&!e.includes("native")) e.push("native"); return e }
+function stop(){ if(hls){hls.destroy();hls=null} PV.removeAttribute("src"); PV.load() }
 function load(u){
-  PL.classList.remove("err"); $("pMsg").hidden=true; $("pSpin").hidden=false; $("pExt").href=u;
-  if(hls){hls.destroy();hls=null}
-  PV.removeAttribute("src"); PV.load();
-  clearTimeout(load.t); load.t=setTimeout(()=>fail("It didn't start within 20 seconds. The stream may be offline."),20000);
-  if(location.protocol==="https:"&&u.startsWith("http:")){fail("This stream uses an insecure http address, which browsers block on secure web pages. Open TIWIGO from the file on your device to play it.");return}
-  if(window.Hls&&Hls.isSupported()){
+  PL.classList.remove("err"); $("pMsg").hidden=true; $("pSpin").hidden=false; setExt(u);
+  stop(); clearTimeout(load.t);
+  if(location.protocol==="https:"&&u.startsWith("http:")){ insecure(u); return }
+  load.u=u; load.q=engines();
+  if(!load.q.length){ fail("This browser can't play live TV streams. Try Safari, Chrome, Edge or Firefox."); return }
+  next();
+}
+function next(why){
+  stop(); clearTimeout(load.t);
+  const eng=load.q.shift(); if(!eng){ fail(why||"The stream may be offline or blocked in your region."); return }
+  $("pSpin").hidden=false;
+  load.t=setTimeout(()=>next("It didn't start within 20 seconds. The stream may be offline."),20000);
+  if(eng==="hlsjs"){
     hls=new Hls({manifestLoadingTimeOut:12000,levelLoadingTimeOut:12000,fragLoadingTimeOut:20000,maxBufferLength:30});
+    load.rec=0;
     hls.on(Hls.Events.ERROR,(e,d)=>{ if(!d.fatal) return;
       if(d.type===Hls.ErrorTypes.MEDIA_ERROR&&!load.rec){load.rec=1;hls.recoverMediaError();return}
-      fail(d.type===Hls.ErrorTypes.NETWORK_ERROR?"The stream can't be reached. It may be offline, blocked in your region, or it doesn't allow web players.":"Your browser couldn't decode this stream.")});
-    load.rec=0; hls.loadSource(u); hls.attachMedia(PV);
-  } else if(PV.canPlayType("application/vnd.apple.mpegurl")){ PV.src=u }
-  else { fail("This browser can't play live TV streams. Try Chrome, Edge, Firefox or Safari."); return }
-  const p=PV.play(); if(p&&p.catch) p.catch(()=>{PV.muted=true;PV.play().catch(()=>{});toast("Muted to start. Tap the video to unmute.")});
+      next(d.type===Hls.ErrorTypes.NETWORK_ERROR?"The stream can't be reached. It may be offline or blocked in your region.":"Your browser couldn't decode this stream.") });
+    hls.loadSource(load.u); hls.attachMedia(PV);
+  } else { PV.dataset.eng="native"; PV.src=load.u }
+  const pr=PV.play(); if(pr&&pr.catch) pr.catch(err=>{ if(err&&err.name==="NotAllowedError"){PV.muted=true;PV.play().catch(()=>{});toast("Muted to start. Tap the video to unmute.")} });
+}
+function setExt(u){ const a=$("pExt"); a.href=u; a.textContent=APPLE?"Play in Safari's player":"Open stream directly"; a.hidden=false }
+function insecure(u){
+  clearTimeout(load.t); $("pSpin").hidden=true; if(!pc) return;
+  $("pMsgT").textContent=pc.n+" needs Safari's player";
+  $("pMsgP").textContent="This channel only streams over an insecure http address, which web pages aren't allowed to load."+(APPLE?" Safari's own player can still play it.":" Open it directly or watch it on the channel's website.");
+  const off=OFFICIAL[pc.n], r=$("pRetry"), x=$("pOff");
+  r.textContent=ps<pc.s.length-1?"Try source "+(ps+2):"Next channel";
+  x.hidden=!off; if(off){x.href=off;x.textContent="Official website"}
+  $("pMsg").hidden=false; PL.classList.add("err"); $("pExt").focus({preventScroll:true});
 }
 PV.addEventListener("playing",()=>{clearTimeout(load.t);$("pSpin").hidden=true;$("pMsg").hidden=true;PL.classList.remove("err")});
 PV.addEventListener("waiting",()=>{$("pSpin").hidden=false});
-PV.addEventListener("error",()=>{ if(!hls&&!PL.hidden&&PV.getAttribute("src")) fail("The stream can't be played here.") });
+PV.addEventListener("error",()=>{ if(!hls&&!PL.hidden&&PV.getAttribute("src")) next("Safari couldn't play this stream.") });
 PV.addEventListener("click",()=>{ if(PV.muted){PV.muted=false;toast("Sound on")} else {PV.paused?PV.play():PV.pause()} poke() });
 function fail(m){
-  clearTimeout(load.t); $("pSpin").hidden=true; if(hls){hls.destroy();hls=null}
+  clearTimeout(load.t); $("pSpin").hidden=true; stop();
   if(!pc) return;
   const more=ps<pc.s.length-1;
   $("pMsgT").textContent=pc.n+" isn't playing"; $("pMsgP").textContent=m;
   $("pRetry").textContent=more?"Try source "+(ps+2):"Next channel";
+  const off=OFFICIAL[pc.n], x=$("pOff"); x.hidden=!off; if(off) x.href=off;
   $("pMsg").hidden=false; PL.classList.add("err"); $("pRetry").focus({preventScroll:true});
 }
 $("pRetry").onclick=()=>{ if(pc&&ps<pc.s.length-1) play(pc,ps+1); else zap(1) };
@@ -579,7 +603,7 @@ function zap(d){
 function closeP(fromPop){
   if(PL.hidden) return;
   PL.hidden=true; document.body.style.overflow=""; clearTimeout(load.t);
-  if(hls){hls.destroy();hls=null} PV.pause(); PV.removeAttribute("src"); PV.load();
+  PV.pause(); stop();
   if(document.fullscreenElement) document.exitFullscreen().catch(()=>{});
   if(!fromPop&&pushed){pushed=false;try{history.back()}catch(e){}} else pushed=false;
   const t=document.querySelector('.tile[data-k="'+CSS.escape(curKey)+'"]'); if(t) t.focus({preventScroll:true});
