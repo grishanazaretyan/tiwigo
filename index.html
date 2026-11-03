@@ -543,6 +543,7 @@ function play(c,i){
   load(c.s[ps][0]); poke();
 }
 const APPLE=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)||/^((?!chrome|crios|android|edg).)*safari/i.test(navigator.userAgent);
+const ANDROID=/Android/i.test(navigator.userAgent);
 const NATIVE=!!PV.canPlayType("application/vnd.apple.mpegurl");
 const HLSJS=!!(window.Hls&&Hls.isSupported());
 const OFFICIAL={"Rustavi 2":"https://rustavi2.ge","GDS TV":"https://gds.tv","TVC":"https://tvc.ge","Rioni TV":"https://rionitv.com","ATV":"https://atv.am","Kentron TV":"https://kentron.tv","Shant TV":"https://www.shanttv.com","Yerkir Media":"https://www.yerkirmedia.am","Armenia TV Satellite":"https://armeniatv.am"};
@@ -571,11 +572,14 @@ function next(why){
   } else { PV.dataset.eng="native"; PV.src=load.u }
   const pr=PV.play(); if(pr&&pr.catch) pr.catch(err=>{ if(err&&err.name==="NotAllowedError"){PV.muted=true;PV.play().catch(()=>{});toast("Muted to start. Tap the video to unmute.")} });
 }
-function setExt(u){ const a=$("pExt"); a.href=u; a.textContent=APPLE?"Play in Safari's player":"Open stream directly"; a.hidden=false }
+function setExt(u){ const a=$("pExt");
+  if(ANDROID){ a.href="intent:"+u+"#Intent;action=android.intent.action.VIEW;type=application/x-mpegURL;end"; a.textContent="Open in a video app" }
+  else { a.href=u; a.textContent=APPLE?"Play in Safari's player":"Open stream directly" }
+  a.hidden=false }
 function insecure(u){
   clearTimeout(load.t); $("pSpin").hidden=true; if(!pc) return;
-  $("pMsgT").textContent=pc.n+" needs Safari's player";
-  $("pMsgP").textContent="This channel only streams over an insecure http address, which web pages aren't allowed to load."+(APPLE?" Safari's own player can still play it.":" Open it directly or watch it on the channel's website.");
+  $("pMsgT").textContent=APPLE?pc.n+" needs Safari's player":pc.n+" can't play in the browser";
+  $("pMsgP").textContent="This channel only streams over an insecure http address, which web pages aren't allowed to load."+(APPLE?" Safari's own player can still play it.":ANDROID?" Open it in a video app such as VLC or MX Player, or watch it on the channel's website.":" Open it directly in a player such as VLC, or watch it on the channel's website.");
   const off=OFFICIAL[pc.n], r=$("pRetry"), x=$("pOff");
   r.textContent=ps<pc.s.length-1?"Try source "+(ps+2):"Next channel";
   x.hidden=!off; if(off){x.href=off;x.textContent="Official website"}
