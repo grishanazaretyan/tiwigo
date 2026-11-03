@@ -546,7 +546,7 @@ const APPLE=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform===
 const ANDROID=/Android/i.test(navigator.userAgent);
 const NATIVE=!!PV.canPlayType("application/vnd.apple.mpegurl");
 const HLSJS=!!(window.Hls&&Hls.isSupported());
-const OFFICIAL={"Rustavi 2":"https://rustavi2.ge","GDS TV":"https://gds.tv","TVC":"https://tvc.ge","Rioni TV":"https://rionitv.com","ATV":"https://atv.am","Kentron TV":"https://kentron.tv","Shant TV":"https://www.shanttv.com","Yerkir Media":"https://www.yerkirmedia.am","Armenia TV Satellite":"https://armeniatv.am"};
+const OFFICIAL={"Rustavi 2":"https://rustavi2.ge","GDS TV":"https://gds.tv","TVC":"https://tvc.ge","Rioni TV":"https://rionitv.com","ATV":"https://atv.am","Kentron TV":"https://kentron.tv","Shant TV":"https://shantdigitaltv.com","Yerkir Media":"https://www.yerkirmedia.am","Armenia TV Satellite":"https://armeniatv.am"};
 function engines(){ const e=[]; if(APPLE&&NATIVE) e.push("native"); if(HLSJS) e.push("hlsjs"); if(NATIVE&&!e.includes("native")) e.push("native"); return e }
 function stop(){ if(hls){hls.destroy();hls=null} PV.removeAttribute("src"); PV.load() }
 function load(u){
