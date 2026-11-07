@@ -1,0 +1,643 @@
+{
+ "type": "pages",
+ "headline": "Russia · Entertainment",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": ".black",
+   "titleFooter": "576p",
+   "playerLabel": ".black",
+   "action": "video:http://stream.mcquack.net/263/index.m3u8",
+   "image": "https://i.imgur.com/Q4A6ci4.png"
+  },
+  {
+   "title": ".red",
+   "titleFooter": "1080p",
+   "playerLabel": ".red",
+   "action": "video:http://178.134.1.158:8081/red/index.m3u8",
+   "image": "https://i.imgur.com/GET9Qut.png"
+  },
+  {
+   "title": ".red · 2",
+   "titleFooter": "576p",
+   "playerLabel": ".red",
+   "action": "video:http://5.188.159.128:8070/RED/index.m3u8",
+   "image": "https://i.imgur.com/GET9Qut.png"
+  },
+  {
+   "title": ".red · 3",
+   "titleFooter": "576p",
+   "playerLabel": ".red",
+   "action": "video:http://stream.mcquack.net/69/index.m3u8",
+   "image": "https://i.imgur.com/GET9Qut.png"
+  },
+  {
+   "title": "2x2",
+   "titleFooter": "576i",
+   "playerLabel": "2x2",
+   "action": "video:https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2x2_TV_Logo.svg/1920px-2x2_TV_Logo.svg.png"
+  },
+  {
+   "title": "2x2 · 2",
+   "titleFooter": "576p",
+   "playerLabel": "2x2",
+   "action": "video:http://stream.mcquack.net/187/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2x2_TV_Logo.svg/1920px-2x2_TV_Logo.svg.png"
+  },
+  {
+   "title": "2x2 · 3",
+   "titleFooter": "576p",
+   "playerLabel": "2x2",
+   "action": "video:http://flussonic.mkpnet.ru/tv-17540fb90079a865/video.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2x2_TV_Logo.svg/1920px-2x2_TV_Logo.svg.png"
+  },
+  {
+   "title": "alpha Cinema",
+   "titleFooter": "1080p",
+   "playerLabel": "alpha Cinema",
+   "action": "video:https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8",
+   "image": "https://i.imgur.com/146OgfU.png"
+  },
+  {
+   "title": "Channel 8",
+   "titleFooter": "576p",
+   "playerLabel": "Channel 8",
+   "action": "video:http://45.11.139.43:8555/8kanal/index.m3u8",
+   "image": "https://i.imgur.com/nUSx1jF.png"
+  },
+  {
+   "title": "Channel 8 · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Channel 8",
+   "action": "video:http://tshift-1.telecoma.tv/8channel/index.m3u8",
+   "image": "https://i.imgur.com/nUSx1jF.png"
+  },
+  {
+   "title": "Channel 8 · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Channel 8",
+   "action": "video:http://v4.proofix.ru/okino-tv/index.m3u8",
+   "image": "https://i.imgur.com/nUSx1jF.png"
+  },
+  {
+   "title": "Che!",
+   "titleFooter": "576p",
+   "playerLabel": "Che!",
+   "action": "video:http://flussonic.linkintel.ru/che/index.m3u8",
+   "image": "https://i.imgur.com/ZOcDGpB.png"
+  },
+  {
+   "title": "Che! · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Che!",
+   "action": "video:http://176.118.197.101/Che/index.m3u8",
+   "image": "https://i.imgur.com/ZOcDGpB.png"
+  },
+  {
+   "title": "Che! · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Che!",
+   "action": "video:http://31.148.48.15/Che/index.m3u8",
+   "image": "https://i.imgur.com/ZOcDGpB.png"
+  },
+  {
+   "title": "Discovery Channel",
+   "titleFooter": "1080p",
+   "playerLabel": "Discovery Channel",
+   "action": "video:http://stream.mcquack.net/177/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"
+  },
+  {
+   "title": "Domashnie Zhivotnye",
+   "titleFooter": "576p",
+   "playerLabel": "Domashnie Zhivotnye",
+   "action": "video:https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8",
+   "image": "https://tv-stream.ru/uploads/D_Zh_ad21d48199.svg"
+  },
+  {
+   "title": "Domashnie Zhivotnye · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Domashnie Zhivotnye",
+   "action": "video:https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv",
+   "image": "https://tv-stream.ru/uploads/D_Zh_ad21d48199.svg"
+  },
+  {
+   "title": "Domashniy SD",
+   "titleFooter": "576p",
+   "playerLabel": "Domashniy SD",
+   "action": "video:http://stream.mcquack.net/227/index.m3u8",
+   "image": "https://i.imgur.com/WaLwOyt.jpeg"
+  },
+  {
+   "title": "Domashniy SD · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Domashniy SD",
+   "action": "video:https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/WaLwOyt.jpeg"
+  },
+  {
+   "title": "Domashniy SD · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Domashniy SD",
+   "action": "video:http://31.148.5.241/kanal_14/index.m3u8",
+   "image": "https://i.imgur.com/WaLwOyt.jpeg"
+  },
+  {
+   "title": "Fashion&LifeStyle",
+   "titleFooter": "1080p",
+   "playerLabel": "Fashion&LifeStyle",
+   "action": "video:http://stream.mcquack.net/119/index.m3u8",
+   "image": "https://i.imgur.com/ETmpllL.png"
+  },
+  {
+   "title": "Fashion&LifeStyle · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "Fashion&LifeStyle",
+   "action": "video:http://31.148.48.15/Fashion_One_HD/index.m3u8",
+   "image": "https://i.imgur.com/ETmpllL.png"
+  },
+  {
+   "title": "FashionTV",
+   "titleFooter": "1080p",
+   "playerLabel": "FashionTV",
+   "action": "video:http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png"
+  },
+  {
+   "title": "Food Network",
+   "titleFooter": "1080p",
+   "playerLabel": "Food Network",
+   "action": "video:http://stream.mcquack.net/298/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png"
+  },
+  {
+   "title": "FoodTime",
+   "titleFooter": "1080p",
+   "playerLabel": "FoodTime",
+   "action": "video:http://stream.mcquack.net/216/index.m3u8",
+   "image": "https://i.imgur.com/gxCYAwH.png"
+  },
+  {
+   "title": "FoodTime · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "FoodTime",
+   "action": "video:http://31.148.48.15/Eda_Premium_HD/index.m3u8",
+   "image": "https://i.imgur.com/gxCYAwH.png"
+  },
+  {
+   "title": "Fox",
+   "titleFooter": "576p",
+   "playerLabel": "Fox",
+   "action": "video:http://stream.mcquack.net/182/index.m3u8",
+   "image": "https://i.imgur.com/nr1Y67Z.png"
+  },
+  {
+   "title": "Friday!",
+   "titleFooter": "576p",
+   "playerLabel": "Friday!",
+   "action": "video:http://stream.mcquack.net/181/index.m3u8",
+   "image": "https://i.imgur.com/UfmlXxe.png"
+  },
+  {
+   "title": "Friday! · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Friday!",
+   "action": "video:https://vod.tuva.ru/friday/index.m3u8",
+   "image": "https://i.imgur.com/UfmlXxe.png"
+  },
+  {
+   "title": "Friday! · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Friday!",
+   "action": "video:http://flussonic.linkintel.ru/Pyatnica/index.m3u8",
+   "image": "https://i.imgur.com/UfmlXxe.png"
+  },
+  {
+   "title": "Friday! International Kazakhstan",
+   "titleFooter": "576p",
+   "playerLabel": "Friday! International Kazakhstan",
+   "action": "video:https://fs.uplink.kz/bolshaya_pyatnica/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/N2z3EZC.png"
+  },
+  {
+   "title": "Home 4K",
+   "playerLabel": "Home 4K",
+   "action": "video:http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8",
+   "image": "https://i.imgur.com/3UXk7JR.png"
+  },
+  {
+   "title": "India",
+   "titleFooter": "576p",
+   "playerLabel": "India",
+   "action": "video:https://fs.uplink.kz/india/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/xDVcDOc.png"
+  },
+  {
+   "title": "India · 2",
+   "titleFooter": "576p",
+   "playerLabel": "India",
+   "action": "video:http://31.148.48.15/Zee_TV_Russia/index.m3u8",
+   "image": "https://i.imgur.com/xDVcDOc.png"
+  },
+  {
+   "title": "Kinokomedija",
+   "titleFooter": "576p",
+   "playerLabel": "Kinokomedija",
+   "action": "video:http://stream.mcquack.net/265/index.m3u8",
+   "image": "https://i.imgur.com/dVjtth0.png"
+  },
+  {
+   "title": "Kinokomedija · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Kinokomedija",
+   "action": "video:https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/dVjtth0.png"
+  },
+  {
+   "title": "Komedia",
+   "titleFooter": "576p",
+   "playerLabel": "Komedia",
+   "action": "video:http://stream.mcquack.net/68/index.m3u8",
+   "image": "https://i.imgur.com/VRC5juh.png"
+  },
+  {
+   "title": "Komedia · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Komedia",
+   "action": "video:http://176.118.197.101/Komediya/index.m3u8",
+   "image": "https://i.imgur.com/VRC5juh.png"
+  },
+  {
+   "title": "Komediynoe HD",
+   "titleFooter": "1080p",
+   "playerLabel": "Komediynoe HD",
+   "action": "video:http://stream.mcquack.net/74/index.m3u8",
+   "image": "https://i.imgur.com/cEKe8XC.png"
+  },
+  {
+   "title": "Kuhnya",
+   "titleFooter": "576p",
+   "playerLabel": "Kuhnya",
+   "action": "video:http://stream.mcquack.net/179/index.m3u8",
+   "image": "https://cdn2.red-media.ru/wp-content/uploads/2016/08/Kuhnya-mediakit.png"
+  },
+  {
+   "title": "Kuhnya · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Kuhnya",
+   "action": "video:https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8",
+   "image": "https://cdn2.red-media.ru/wp-content/uploads/2016/08/Kuhnya-mediakit.png"
+  },
+  {
+   "title": "Kulinar TV",
+   "titleFooter": "576p",
+   "playerLabel": "Kulinar TV",
+   "action": "video:https://api.alpaca.t62a.com/hls/9110/stream0.m3u8",
+   "image": "https://smotret.tv/images/kulinar-tv.webp"
+  },
+  {
+   "title": "KVN TV",
+   "titleFooter": "576p",
+   "playerLabel": "KVN TV",
+   "action": "video:http://178.124.179.122:8080/KVN-TV/index.m3u8",
+   "image": "https://i.imgur.com/Vw3LFLX.png"
+  },
+  {
+   "title": "KVN TV · 2",
+   "titleFooter": "576p",
+   "playerLabel": "KVN TV",
+   "action": "video:https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/Vw3LFLX.png"
+  },
+  {
+   "title": "KVN TV · 3",
+   "titleFooter": "576p",
+   "playerLabel": "KVN TV",
+   "action": "video:http://31.148.48.15/KVN_TV/index.m3u8",
+   "image": "https://i.imgur.com/Vw3LFLX.png"
+  },
+  {
+   "title": "Leomax 24",
+   "titleFooter": "1080p",
+   "playerLabel": "Leomax 24",
+   "action": "video:https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8",
+   "image": "https://i.imgur.com/qU9ohQu.png"
+  },
+  {
+   "title": "Moy mir",
+   "titleFooter": "720p",
+   "playerLabel": "Moy mir",
+   "action": "video:https://moymir.ru/hls/onair.m3u8",
+   "image": "https://www.cableman.ru/sites/default/files/MM-TV_logo-1%5B1509%5D.png"
+  },
+  {
+   "title": "Peretz International",
+   "titleFooter": "576p",
+   "playerLabel": "Peretz International",
+   "action": "video:http://stream.mcquack.net/121/index.m3u8",
+   "image": "https://i.imgur.com/Y84p1y6.png"
+  },
+  {
+   "title": "Poehali!",
+   "titleFooter": "1080p",
+   "playerLabel": "Poehali!",
+   "action": "video:http://31.148.48.15/Poehali/index.m3u8",
+   "image": "https://i.imgur.com/ZNCpbII.png"
+  },
+  {
+   "title": "Poehali! · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Poehali!",
+   "action": "video:http://88.212.15.50/live/test_poehali/playlist.m3u8",
+   "image": "https://i.imgur.com/ZNCpbII.png"
+  },
+  {
+   "title": "Shopping Live",
+   "titleFooter": "720p",
+   "playerLabel": "Shopping Live",
+   "action": "video:https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/playlist.m3u8",
+   "image": "https://i.imgur.com/EMmGnjV.png"
+  },
+  {
+   "title": "Shopping Live · 2",
+   "titleFooter": "576p · not 24/7",
+   "playerLabel": "Shopping Live",
+   "action": "video:http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8",
+   "image": "https://i.imgur.com/EMmGnjV.png"
+  },
+  {
+   "title": "Smotrim 100% Prazdnik",
+   "titleFooter": "720p",
+   "playerLabel": "Smotrim 100% Prazdnik",
+   "action": "video:https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8",
+   "image": "https://i.imgur.com/NEcqFse.png"
+  },
+  {
+   "title": "Subbota!",
+   "titleFooter": "1080p",
+   "playerLabel": "Subbota!",
+   "action": "video:https://bl.rutube.ru/livestream/310744c10a5809da38aa445c952976da/index.m3u8?e=2066519758&s=dmUf6BUQzDBTwtQOseAfog&scheme=https",
+   "image": "https://i.imgur.com/nsk8PpB.png"
+  },
+  {
+   "title": "Subbota! · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "Subbota!",
+   "action": "video:http://stream.mcquack.net/269/index.m3u8",
+   "image": "https://i.imgur.com/nsk8PpB.png"
+  },
+  {
+   "title": "Subbota! · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Subbota!",
+   "action": "video:http://217.114.191.150/Subbota/index.m3u8",
+   "image": "https://i.imgur.com/nsk8PpB.png"
+  },
+  {
+   "title": "Telecafe",
+   "titleFooter": "576p",
+   "playerLabel": "Telecafe",
+   "action": "video:http://stream.mcquack.net/314/index.m3u8",
+   "image": "https://i.imgur.com/1H3h1HL.png"
+  },
+  {
+   "title": "Telecafe · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Telecafe",
+   "action": "video:https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/1H3h1HL.png"
+  },
+  {
+   "title": "Telecafe · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Telecafe",
+   "action": "video:http://88.212.15.50/live/test_telecafe_tv/playlist.m3u8",
+   "image": "https://i.imgur.com/1H3h1HL.png"
+  },
+  {
+   "title": "TLC",
+   "titleFooter": "1080p",
+   "playerLabel": "TLC",
+   "action": "video:http://stream.mcquack.net/168/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"
+  },
+  {
+   "title": "TNT HD",
+   "titleFooter": "1080p",
+   "playerLabel": "TNT HD",
+   "action": "video:http://45.153.24.78/TNT/index.m3u8",
+   "image": "https://i.imgur.com/T4A6rEI.png"
+  },
+  {
+   "title": "TNT HD · 2",
+   "titleFooter": "576p",
+   "playerLabel": "TNT HD",
+   "action": "video:http://stream.mcquack.net/135/index.m3u8",
+   "image": "https://i.imgur.com/T4A6rEI.png"
+  },
+  {
+   "title": "TNT HD · 3",
+   "titleFooter": "576p",
+   "playerLabel": "TNT HD",
+   "action": "video:http://flussonic.linkintel.ru/tnt/index.m3u8",
+   "image": "https://i.imgur.com/T4A6rEI.png"
+  },
+  {
+   "title": "TNT4",
+   "titleFooter": "576p",
+   "playerLabel": "TNT4",
+   "action": "video:http://flussonic.linkintel.ru/tnt4/index.m3u8",
+   "image": "https://i.imgur.com/gBokU5i.png"
+  },
+  {
+   "title": "TNT4 · 2",
+   "titleFooter": "576p",
+   "playerLabel": "TNT4",
+   "action": "video:http://stream.mcquack.net/106/index.m3u8",
+   "image": "https://i.imgur.com/gBokU5i.png"
+  },
+  {
+   "title": "TNT4 · 3",
+   "titleFooter": "576p",
+   "playerLabel": "TNT4",
+   "action": "video:http://176.118.197.101/TNT4/index.m3u8",
+   "image": "https://i.imgur.com/gBokU5i.png"
+  },
+  {
+   "title": "TNT4 International",
+   "titleFooter": "576p",
+   "playerLabel": "TNT4 International",
+   "action": "video:https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/gBokU5i.png"
+  },
+  {
+   "title": "TV-3",
+   "titleFooter": "1080p",
+   "playerLabel": "TV-3",
+   "action": "video:http://stream.mcquack.net/136/index.m3u8",
+   "image": "https://i.imgur.com/JLAvq8O.png"
+  },
+  {
+   "title": "TV-3 · 2",
+   "titleFooter": "576p",
+   "playerLabel": "TV-3",
+   "action": "video:http://178.124.179.122:8080/TB-3/index.m3u8",
+   "image": "https://i.imgur.com/JLAvq8O.png"
+  },
+  {
+   "title": "TV-3 · 3",
+   "titleFooter": "576p",
+   "playerLabel": "TV-3",
+   "action": "video:http://flussonic.linkintel.ru/tv-3/index.m3u8",
+   "image": "https://i.imgur.com/JLAvq8O.png"
+  },
+  {
+   "title": "U",
+   "titleFooter": "720p",
+   "playerLabel": "U",
+   "action": "video:https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https",
+   "image": "https://i.imgur.com/KDZvt0Q.png"
+  },
+  {
+   "title": "U · 2",
+   "titleFooter": "720p",
+   "playerLabel": "U",
+   "action": "video:https://cdn-01.bonus-tv.ru/u/playlist.m3u8",
+   "image": "https://i.imgur.com/KDZvt0Q.png"
+  },
+  {
+   "title": "U · 3",
+   "titleFooter": "576p",
+   "playerLabel": "U",
+   "action": "video:http://178.134.1.158:8081/U/index.m3u8",
+   "image": "https://i.imgur.com/KDZvt0Q.png"
+  },
+  {
+   "title": "viju+ Comedy HD",
+   "titleFooter": "1080p",
+   "playerLabel": "viju+ Comedy HD",
+   "action": "video:http://stream.mcquack.net/201/index.m3u8",
+   "image": "https://i.imgur.com/YoNOFu7.png"
+  },
+  {
+   "title": "viju+ Comedy HD · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "viju+ Comedy HD",
+   "action": "video:http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8",
+   "image": "https://i.imgur.com/YoNOFu7.png"
+  },
+  {
+   "title": "Vitrina TV",
+   "titleFooter": "720p",
+   "playerLabel": "Vitrina TV",
+   "action": "video:https://live-11cinema.cdnvideo.ru/11cinema/11cinema/playlist.m3u8",
+   "image": "https://i.imgur.com/lzQsVfn.png"
+  },
+  {
+   "title": "Voprosy i Otvety",
+   "titleFooter": "576p",
+   "playerLabel": "Voprosy i Otvety",
+   "action": "video:http://stream.mcquack.net/76/index.m3u8",
+   "image": "https://i.imgur.com/yjETxk1.png"
+  },
+  {
+   "title": "Zdorovoe TV",
+   "titleFooter": "576p",
+   "playerLabel": "Zdorovoe TV",
+   "action": "video:https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/jedtE5l.png"
+  },
+  {
+   "title": "Zdorovoe TV · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Zdorovoe TV",
+   "action": "video:http://31.148.48.15/Zdorovoe_TV/index.m3u8",
+   "image": "https://i.imgur.com/jedtE5l.png"
+  },
+  {
+   "title": "Zhivi!",
+   "titleFooter": "1080p",
+   "playerLabel": "Zhivi!",
+   "action": "video:http://31.148.48.15/Zhivi/index.m3u8",
+   "image": "https://cdn2.red-media.ru/wp-content/uploads/2019/12/jivi(1).png"
+  },
+  {
+   "title": "Zhivi! · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Zhivi!",
+   "action": "video:https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv",
+   "image": "https://cdn2.red-media.ru/wp-content/uploads/2019/12/jivi(1).png"
+  },
+  {
+   "title": "Магнат ТВ",
+   "titleFooter": "1080p",
+   "playerLabel": "Магнат ТВ",
+   "action": "video:https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8",
+   "image": "https://i.imgur.com/r485aZL.png"
+  },
+  {
+   "title": "НТВ Стиль",
+   "titleFooter": "576p",
+   "playerLabel": "НТВ Стиль",
+   "action": "video:https://cdn.ntv.ru/th_style/playlist.m3u8",
+   "image": "https://i.imgur.com/rX6K6qT.png"
+  },
+  {
+   "title": "ОТВ Приморье",
+   "playerLabel": "ОТВ Приморье",
+   "action": "video:https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist.m3u8",
+   "image": "https://i.imgur.com/2zd8trG.png"
+  },
+  {
+   "title": "Открытый мир. Здоровье",
+   "titleFooter": "576p",
+   "playerLabel": "Открытый мир. Здоровье",
+   "action": "video:https://v4.proofix.ru/0mir/index.m3u8",
+   "image": "https://i.imgur.com/7orZOJA.png"
+  },
+  {
+   "title": "Сити Эдем МедЗдрав",
+   "titleFooter": "not 24/7",
+   "playerLabel": "Сити Эдем МедЗдрав",
+   "action": "video:https://cityeden.catcast.tv/content/47519/index.m3u8",
+   "image": "https://i.imgur.com/BM4E0Kr.png"
+  },
+  {
+   "title": "Сити Эдем Рецепты Гурмана",
+   "titleFooter": "not 24/7",
+   "playerLabel": "Сити Эдем Рецепты Гурмана",
+   "action": "video:https://cityeden.catcast.tv/content/47516/index.m3u8",
+   "image": "https://i.imgur.com/wR0pvRc.png"
+  },
+  {
+   "title": "Твое TV HD",
+   "titleFooter": "1080p",
+   "playerLabel": "Твое TV HD",
+   "action": "video:http://tvoetv.space:8080/tvoetv/index.m3u8",
+   "image": "https://i.imgur.com/kKAM7dP.png"
+  },
+  {
+   "title": "Твое ТВ Юмор",
+   "titleFooter": "1080p",
+   "playerLabel": "Твое ТВ Юмор",
+   "action": "video:http://tvoetv.space:8080/tvoetv_humor/index.m3u8",
+   "image": "https://smotret.tv/images/tvoe-tv-yumor.webp"
+  },
+  {
+   "title": "Ювелирочка ТВ",
+   "titleFooter": "576p",
+   "playerLabel": "Ювелирочка ТВ",
+   "action": "video:https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8",
+   "image": "https://i.imgur.com/IcWtXCZ.png"
+  }
+ ]
+}

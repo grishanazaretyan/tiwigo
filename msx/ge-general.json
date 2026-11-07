@@ -1,0 +1,81 @@
+{
+ "type": "pages",
+ "headline": "Georgia · General",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": "1TV",
+   "titleFooter": "720p",
+   "playerLabel": "1TV",
+   "action": "video:https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8",
+   "image": "https://i.imgur.com/FSkYLPK.png"
+  },
+  {
+   "title": "2TV",
+   "titleFooter": "720p",
+   "playerLabel": "2TV",
+   "action": "video:https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
+   "image": "https://i.imgur.com/FJBL6zI.png"
+  },
+  {
+   "title": "Apsua TV",
+   "playerLabel": "Apsua TV",
+   "action": "video:https://gcmx3v3owcj.a.trbcdn.net/livemaster/ba7pu_fgej0zelpw.smil/playlist.m3u8?blstid=null",
+   "image": "https://i.imgur.com/TJowroY.png"
+  },
+  {
+   "title": "GDS TV",
+   "playerLabel": "GDS TV",
+   "action": "video:http://31.146.5.178:8087/play/a00a/index.m3u8",
+   "image": "https://i.imgur.com/gv61tFf.png"
+  },
+  {
+   "title": "Imedi TV",
+   "titleFooter": "1080p",
+   "playerLabel": "Imedi TV",
+   "action": "video:https://tv.cdn.xsg.ge/imedihd/index.m3u8",
+   "image": "https://i.imgur.com/94hNyxZ.png"
+  },
+  {
+   "title": "Mtavari Arkhi",
+   "playerLabel": "Mtavari Arkhi",
+   "action": "video:https://live20.bozztv.com/dvrfl05/gin-mtavariarxi/index.m3u8",
+   "image": "https://i.imgur.com/tLtGnJW.png"
+  },
+  {
+   "title": "Rioni TV",
+   "titleFooter": "720p · not 24/7",
+   "playerLabel": "Rioni TV",
+   "action": "video:http://video.rionitv.com:9090/hls/live/rioni.m3u8",
+   "image": "https://i.imgur.com/ogMqmth.png"
+  },
+  {
+   "title": "Rustavi 2",
+   "playerLabel": "Rustavi 2",
+   "action": "video:http://31.146.5.178:8087/play/a008/index.m3u8",
+   "image": "https://i.imgur.com/rPqd1Cx.png"
+  },
+  {
+   "title": "TVC",
+   "titleFooter": "1080p",
+   "playerLabel": "TVC",
+   "action": "video:http://31.146.5.178:8087/play/a009/index.m3u8",
+   "image": "https://sul.ge/images/televizia/tvc.png"
+  },
+  {
+   "title": "АБАЗА-ТВ",
+   "titleFooter": "1080p",
+   "playerLabel": "АБАЗА-ТВ",
+   "action": "video:https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8",
+   "image": "https://i.imgur.com/7Jo7UAf.png"
+  }
+ ]
+}

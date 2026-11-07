@@ -1,0 +1,21 @@
+{
+ "type": "pages",
+ "headline": "Georgia · Entertainment",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": "Comedy TV",
+   "playerLabel": "Comedy TV",
+   "action": "video:http://31.146.5.178:8087/play/a00b/index.m3u8",
+   "image": "https://i.imgur.com/i1TANKv.png"
+  }
+ ]
+}

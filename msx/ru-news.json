@@ -1,0 +1,318 @@
+{
+ "type": "pages",
+ "headline": "Russia · News",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": "360° Новости",
+   "titleFooter": "1080p",
+   "playerLabel": "360° Новости",
+   "action": "video:https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8",
+   "image": "https://i.imgur.com/YXDeX8q.png"
+  },
+  {
+   "title": "360° Новости · 2",
+   "playerLabel": "360° Новости",
+   "action": "video:https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8",
+   "image": "https://i.imgur.com/YXDeX8q.png"
+  },
+  {
+   "title": "Arirang",
+   "titleFooter": "576p",
+   "playerLabel": "Arirang",
+   "action": "video:https://cdn-01.bonus-tv.ru/arirang_edge/playlist.m3u8",
+   "image": "https://i.imgur.com/Asu5pE9.png"
+  },
+  {
+   "title": "Duma TV",
+   "titleFooter": "720p",
+   "playerLabel": "Duma TV",
+   "action": "video:http://185.23.80.23:8080/DumaTV/index.m3u8",
+   "image": "https://i.imgur.com/JvlO3PU.png"
+  },
+  {
+   "title": "Duma TV · 2",
+   "titleFooter": "1080p · not 24/7",
+   "playerLabel": "Duma TV",
+   "action": "video:https://dumatv.iptv2022.com/playlist.m3u8",
+   "image": "https://i.imgur.com/JvlO3PU.png"
+  },
+  {
+   "title": "Mir 24",
+   "titleFooter": "1080p",
+   "playerLabel": "Mir 24",
+   "action": "video:http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8",
+   "image": "https://i.imgur.com/dj9c8Yd.png"
+  },
+  {
+   "title": "Mir 24 · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Mir 24",
+   "action": "video:http://5.188.159.128:8070/mir_24/index.m3u8",
+   "image": "https://i.imgur.com/dj9c8Yd.png"
+  },
+  {
+   "title": "Mir 24 · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Mir 24",
+   "action": "video:http://31.148.48.15/Mir_24/index.m3u8",
+   "image": "https://i.imgur.com/dj9c8Yd.png"
+  },
+  {
+   "title": "Novorossiya TV",
+   "titleFooter": "1080p",
+   "playerLabel": "Novorossiya TV",
+   "action": "video:http://31.131.139.253:9002/novoros/index.m3u8",
+   "image": "https://i.imgur.com/ijmf0bV.png"
+  },
+  {
+   "title": "Oplot TV",
+   "titleFooter": "1080p",
+   "playerLabel": "Oplot TV",
+   "action": "video:http://31.131.139.253:9002/oplot_hd/index.m3u8",
+   "image": "https://i.imgur.com/RvUkId2.png"
+  },
+  {
+   "title": "Oplot TV · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "Oplot TV",
+   "action": "video:http://31.131.141.195:8000/play/a006/index.m3u8",
+   "image": "https://i.imgur.com/RvUkId2.png"
+  },
+  {
+   "title": "Pro Business",
+   "titleFooter": "720p",
+   "playerLabel": "Pro Business",
+   "action": "video:https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8",
+   "image": "https://i.imgur.com/1u8KvTD.png"
+  },
+  {
+   "title": "RBK-TV SD",
+   "titleFooter": "576p",
+   "playerLabel": "RBK-TV SD",
+   "action": "video:http://hls127.freeott.top:8080/RBK/video.m3u8",
+   "image": "https://i.imgur.com/CwhmJby.png"
+  },
+  {
+   "title": "RBK-TV SD · 2",
+   "titleFooter": "576p",
+   "playerLabel": "RBK-TV SD",
+   "action": "video:https://uiptv.do.am/1ufc/701293058/playlist.m3u8",
+   "image": "https://i.imgur.com/CwhmJby.png"
+  },
+  {
+   "title": "RBK-TV SD · 3",
+   "titleFooter": "576p",
+   "playerLabel": "RBK-TV SD",
+   "action": "video:https://online-video.rbc.ru/spb/rbctv_spb.m3u8",
+   "image": "https://i.imgur.com/CwhmJby.png"
+  },
+  {
+   "title": "RT",
+   "titleFooter": "1080p",
+   "playerLabel": "RT",
+   "action": "video:http://31.148.48.15/RT_HD/index.m3u8",
+   "image": "https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540"
+  },
+  {
+   "title": "RT · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "RT",
+   "action": "video:https://wisewatchoott.wiseplayout.com/RT/master.m3u8",
+   "image": "https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540"
+  },
+  {
+   "title": "RT · 3",
+   "titleFooter": "1080p",
+   "playerLabel": "RT",
+   "action": "video:https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+   "image": "https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540"
+  },
+  {
+   "title": "RT Arabic",
+   "titleFooter": "1080p",
+   "playerLabel": "RT Arabic",
+   "action": "video:https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8",
+   "image": "https://i.imgur.com/G8vGrn1.png"
+  },
+  {
+   "title": "RT Arabic · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "RT Arabic",
+   "action": "video:https://rt-arb.rttv.com/live/rtarab/playlist.m3u8",
+   "image": "https://i.imgur.com/G8vGrn1.png"
+  },
+  {
+   "title": "RT Balkan",
+   "titleFooter": "1080p",
+   "playerLabel": "RT Balkan",
+   "action": "video:https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8",
+   "image": "https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg"
+  },
+  {
+   "title": "RT Balkan · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "RT Balkan",
+   "action": "video:https://rt-srb.rttv.com/live/rtbalkan/playlist.m3u8",
+   "image": "https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg"
+  },
+  {
+   "title": "RT en Espanol",
+   "titleFooter": "1080p",
+   "playerLabel": "RT en Espanol",
+   "action": "video:http://15.204.246.24:8080/RTHD/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png"
+  },
+  {
+   "title": "RT en Espanol · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "RT en Espanol",
+   "action": "video:http://168.196.127.137:6001/play/a0a9/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png"
+  },
+  {
+   "title": "RT en Espanol · 3",
+   "titleFooter": "1080p",
+   "playerLabel": "RT en Espanol",
+   "action": "video:https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png"
+  },
+  {
+   "title": "RT France",
+   "titleFooter": "1080p",
+   "playerLabel": "RT France",
+   "action": "video:https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png"
+  },
+  {
+   "title": "RT France · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "RT France",
+   "action": "video:https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png"
+  },
+  {
+   "title": "Russia-24",
+   "titleFooter": "1080p",
+   "playerLabel": "Russia-24",
+   "action": "video:http://77.232.131.211/Rossiya24/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png"
+  },
+  {
+   "title": "Russia-24 · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "Russia-24",
+   "action": "video:https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png"
+  },
+  {
+   "title": "Russia-24 · 3",
+   "titleFooter": "1080p",
+   "playerLabel": "Russia-24",
+   "action": "video:https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png"
+  },
+  {
+   "title": "Vesti FM",
+   "titleFooter": "720p",
+   "playerLabel": "Vesti FM",
+   "action": "video:https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8",
+   "image": "https://i.imgur.com/ZBHqSZj.png"
+  },
+  {
+   "title": "Астрахань 24",
+   "titleFooter": "720p",
+   "playerLabel": "Астрахань 24",
+   "action": "video:https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8",
+   "image": "https://i.imgur.com/9WcnjQN.png"
+  },
+  {
+   "title": "Беларусь 24",
+   "titleFooter": "576p",
+   "playerLabel": "Беларусь 24",
+   "action": "video:http://31.148.48.15/Belarus_24/index.m3u8",
+   "image": "https://i.imgur.com/BP7tY6F.png"
+  },
+  {
+   "title": "Дон 24",
+   "titleFooter": "1080p",
+   "playerLabel": "Дон 24",
+   "action": "video:https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8",
+   "image": "https://i.imgur.com/fW15la1.png"
+  },
+  {
+   "title": "Известия",
+   "titleFooter": "1080p",
+   "playerLabel": "Известия",
+   "action": "video:http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8",
+   "image": "https://i.imgur.com/r5HzA6J.png"
+  },
+  {
+   "title": "КРИК-ТВ (Екатеринбург)",
+   "titleFooter": "1080p",
+   "playerLabel": "КРИК-ТВ (Екатеринбург)",
+   "action": "video:http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8",
+   "image": "https://i.imgur.com/rtuChZR.png"
+  },
+  {
+   "title": "Крым 24",
+   "playerLabel": "Крым 24",
+   "action": "video:https://cdn.1tvcrimea.ru/24tvcrimea.m3u8",
+   "image": "https://i.imgur.com/k4C0uvp.png"
+  },
+  {
+   "title": "Крым 24 · 2",
+   "playerLabel": "Крым 24",
+   "action": "video:https://streaming.televizor-24-tochka.ru/live/28.m3u8",
+   "image": "https://i.imgur.com/k4C0uvp.png"
+  },
+  {
+   "title": "Легендарный 24",
+   "playerLabel": "Легендарный 24",
+   "action": "video:https://sevas.1tvcrimea.ru/legendarniy24.m3u8",
+   "image": "https://i.imgur.com/z9t6x8B.png"
+  },
+  {
+   "title": "Миллет",
+   "titleFooter": "720p",
+   "playerLabel": "Миллет",
+   "action": "video:https://live1.1tvcrimea.ru/milletlive.m3u8",
+   "image": "https://i.imgur.com/hUjLRLy.png"
+  },
+  {
+   "title": "Первый Республиканский",
+   "playerLabel": "Первый Республиканский",
+   "action": "video:https://streaming.televizor-24-tochka.ru/live/27.m3u8",
+   "image": "https://i.imgur.com/ti4OMBv.png"
+  },
+  {
+   "title": "Радио Говорит Москва (Веб-камера)",
+   "titleFooter": "720p",
+   "playerLabel": "Радио Говорит Москва (Веб-камера)",
+   "action": "video:https://video.govoritmoskva.ru/rufm/index.m3u8",
+   "image": "https://i.imgur.com/z2mxf3E.png"
+  },
+  {
+   "title": "Толк HD",
+   "titleFooter": "720p",
+   "playerLabel": "Толк HD",
+   "action": "video:http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8",
+   "image": "https://i.imgur.com/l7JZ79P.png"
+  },
+  {
+   "title": "Толк HD · 2",
+   "titleFooter": "720p",
+   "playerLabel": "Толк HD",
+   "action": "video:https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8",
+   "image": "https://i.imgur.com/l7JZ79P.png"
+  }
+ ]
+}

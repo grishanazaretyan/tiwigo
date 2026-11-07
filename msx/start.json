@@ -1,0 +1,8 @@
+{
+ "name": "TIWIGO",
+ "version": "1.0.0",
+ "parameter": "menu:https://grishanazaretyan.github.io/tiwigo/msx/menu.json",
+ "launcher": {
+  "icon": "live-tv"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "type": "pages",
+ "headline": "Russia · Religious",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": "Spas",
+   "titleFooter": "576p",
+   "playerLabel": "Spas",
+   "action": "video:https://tvspas.mediacdn.ru/cdn/spas/playlist.m3u8",
+   "image": "https://i.imgur.com/yY39nMg.png"
+  },
+  {
+   "title": "Spas · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Spas",
+   "action": "video:http://31.148.5.241/kanal_12/index.m3u8",
+   "image": "https://i.imgur.com/yY39nMg.png"
+  },
+  {
+   "title": "Spas · 3",
+   "titleFooter": "450p",
+   "playerLabel": "Spas",
+   "action": "video:https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8",
+   "image": "https://i.imgur.com/yY39nMg.png"
+  },
+  {
+   "title": "Tsargrad TV",
+   "titleFooter": "1080p",
+   "playerLabel": "Tsargrad TV",
+   "action": "video:https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?e=2070278263&s=is_mLq_kjPYLsOJ4qj85tw&scheme=https",
+   "image": "https://i.imgur.com/34RINpb.png"
+  },
+  {
+   "title": "Вера 24",
+   "playerLabel": "Вера 24",
+   "action": "video:https://5f05e059699ae.streamlock.net/WEB_Vera24/ngrp:Vera24.stream-adaptive/playlist.m3u8",
+   "image": "https://i.imgur.com/Qer5Lnh.png"
+  },
+  {
+   "title": "Надежда",
+   "titleFooter": "720p",
+   "playerLabel": "Надежда",
+   "action": "video:https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
+   "image": "https://i.imgur.com/ah6VnFJ.png"
+  },
+  {
+   "title": "Надежда · 2",
+   "titleFooter": "720p",
+   "playerLabel": "Надежда",
+   "action": "video:https://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
+   "image": "https://i.imgur.com/ah6VnFJ.png"
+  },
+  {
+   "title": "Союз",
+   "titleFooter": "576p",
+   "playerLabel": "Союз",
+   "action": "video:https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8",
+   "image": "https://i.imgur.com/w3OewHc.png"
+  },
+  {
+   "title": "Три Ангела",
+   "titleFooter": "720p",
+   "playerLabel": "Три Ангела",
+   "action": "video:https://hls.tv.3angels.ru/stream.m3u8",
+   "image": "https://i.imgur.com/4fhBbam.png"
+  },
+  {
+   "title": "Хузур ТВ",
+   "titleFooter": "1080p · not 24/7",
+   "playerLabel": "Хузур ТВ",
+   "action": "video:https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8",
+   "image": "https://i.imgur.com/Abg1fct.png"
+  }
+ ]
+}

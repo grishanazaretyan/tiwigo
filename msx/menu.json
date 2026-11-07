@@ -1,0 +1,106 @@
+{
+ "headline": "TIWIGO",
+ "menu": [
+  {
+   "type": "separator",
+   "label": "TIWIGO · live TV"
+  },
+  {
+   "type": "separator",
+   "label": "Georgia"
+  },
+  {
+   "icon": "article",
+   "label": "News (4)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ge-news.json"
+  },
+  {
+   "icon": "sports-soccer",
+   "label": "Sports (1)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ge-sports.json"
+  },
+  {
+   "icon": "theaters",
+   "label": "Entertainment (1)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ge-ent.json"
+  },
+  {
+   "icon": "auto-awesome",
+   "label": "Religious (1)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ge-religious.json"
+  },
+  {
+   "icon": "live-tv",
+   "label": "General (10)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ge-general.json"
+  },
+  {
+   "type": "separator",
+   "label": "Armenia"
+  },
+  {
+   "icon": "article",
+   "label": "News (1)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/am-news.json"
+  },
+  {
+   "icon": "movie",
+   "label": "Movies & Series (1)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/am-movies.json"
+  },
+  {
+   "icon": "live-tv",
+   "label": "General (8)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/am-general.json"
+  },
+  {
+   "type": "separator",
+   "label": "Russia"
+  },
+  {
+   "icon": "article",
+   "label": "News (26)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-news.json"
+  },
+  {
+   "icon": "sports-soccer",
+   "label": "Sports (34)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-sports.json"
+  },
+  {
+   "icon": "movie",
+   "label": "Movies & Series (98)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-movies.json"
+  },
+  {
+   "icon": "child-care",
+   "label": "Kids (32)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-kids.json"
+  },
+  {
+   "icon": "music-note",
+   "label": "Music (32)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-music.json"
+  },
+  {
+   "icon": "theaters",
+   "label": "Entertainment (52)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-ent.json"
+  },
+  {
+   "icon": "public",
+   "label": "Documentary & Science (34)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-docs.json"
+  },
+  {
+   "icon": "auto-awesome",
+   "label": "Religious (7)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-religious.json"
+  },
+  {
+   "icon": "live-tv",
+   "label": "General (154)",
+   "data": "https://grishanazaretyan.github.io/tiwigo/msx/ru-general.json"
+  }
+ ]
+}

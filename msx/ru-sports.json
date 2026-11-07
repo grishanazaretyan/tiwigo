@@ -1,0 +1,430 @@
+{
+ "type": "pages",
+ "headline": "Russia · Sports",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": "Auto Plus",
+   "titleFooter": "576p",
+   "playerLabel": "Auto Plus",
+   "action": "video:http://31.148.48.15/Avto_Plus/index.m3u8",
+   "image": "https://i.imgur.com/sVc8cFt.png"
+  },
+  {
+   "title": "Auto Plus · 2",
+   "playerLabel": "Auto Plus",
+   "action": "video:https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/sVc8cFt.png"
+  },
+  {
+   "title": "Avto24",
+   "titleFooter": "576p",
+   "playerLabel": "Avto24",
+   "action": "video:http://stream.mcquack.net/78/index.m3u8",
+   "image": "https://i.imgur.com/GXSXmN2.png"
+  },
+  {
+   "title": "Avto24 · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Avto24",
+   "action": "video:https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/GXSXmN2.png"
+  },
+  {
+   "title": "Boks TV",
+   "titleFooter": "720p",
+   "playerLabel": "Boks TV",
+   "action": "video:http://31.148.48.15/Boks_TV/index.m3u8",
+   "image": "https://i.imgur.com/R1UjyfX.png"
+  },
+  {
+   "title": "Boks TV · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Boks TV",
+   "action": "video:http://stream.mcquack.net/154/index.m3u8",
+   "image": "https://i.imgur.com/R1UjyfX.png"
+  },
+  {
+   "title": "Dikaya okhota HD",
+   "titleFooter": "1080p",
+   "playerLabel": "Dikaya okhota HD",
+   "action": "video:http://stream.mcquack.net/274/index.m3u8",
+   "image": "https://i.imgur.com/EOue13e.png"
+  },
+  {
+   "title": "Dikaya rybalka HD",
+   "titleFooter": "1080p",
+   "playerLabel": "Dikaya rybalka HD",
+   "action": "video:http://stream.mcquack.net/275/index.m3u8",
+   "image": "https://i.imgur.com/e3BFVgt.png"
+  },
+  {
+   "title": "Dikij",
+   "titleFooter": "576p",
+   "playerLabel": "Dikij",
+   "action": "video:https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/VDXDiPC.png"
+  },
+  {
+   "title": "Drive",
+   "titleFooter": "576i",
+   "playerLabel": "Drive",
+   "action": "video:https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/FnuwfSC.png"
+  },
+  {
+   "title": "Extreme Sports Channel",
+   "titleFooter": "576p",
+   "playerLabel": "Extreme Sports Channel",
+   "action": "video:http://46.32.176.50/extremesport/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/960px-Extreme_Sports_Channel.svg.png"
+  },
+  {
+   "title": "Extreme Sports Channel · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Extreme Sports Channel",
+   "action": "video:https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv",
+   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/960px-Extreme_Sports_Channel.svg.png"
+  },
+  {
+   "title": "KHL",
+   "titleFooter": "720p",
+   "playerLabel": "KHL",
+   "action": "video:http://31.148.48.15/KHL_TV/index.m3u8",
+   "image": "https://i.imgur.com/RgdHdOV.png"
+  },
+  {
+   "title": "KHL · 2",
+   "titleFooter": "576p",
+   "playerLabel": "KHL",
+   "action": "video:http://stream.mcquack.net/166/index.m3u8",
+   "image": "https://i.imgur.com/RgdHdOV.png"
+  },
+  {
+   "title": "KHL · 3",
+   "titleFooter": "576p",
+   "playerLabel": "KHL",
+   "action": "video:https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/RgdHdOV.png"
+  },
+  {
+   "title": "KHL Prime",
+   "titleFooter": "1080p",
+   "playerLabel": "KHL Prime",
+   "action": "video:http://stream.mcquack.net/178/index.m3u8",
+   "image": "https://i.imgur.com/pwxT0ON.png"
+  },
+  {
+   "title": "KHL Prime · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "KHL Prime",
+   "action": "video:https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/pwxT0ON.png"
+  },
+  {
+   "title": "KHL Prime · 3",
+   "titleFooter": "720p",
+   "playerLabel": "KHL Prime",
+   "action": "video:http://31.148.48.15/KHL_TV_HD/index.m3u8",
+   "image": "https://i.imgur.com/pwxT0ON.png"
+  },
+  {
+   "title": "Match! Arena",
+   "titleFooter": "720p",
+   "playerLabel": "Match! Arena",
+   "action": "video:http://31.148.48.15/Match_Arena_HD/index.m3u8",
+   "image": "https://i.imgur.com/udTzwzu.png"
+  },
+  {
+   "title": "Match! Arena · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Arena",
+   "action": "video:http://stream.mcquack.net/163/index.m3u8",
+   "image": "https://i.imgur.com/udTzwzu.png"
+  },
+  {
+   "title": "Match! Arena · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Arena",
+   "action": "video:http://31.148.48.15/Match_Arena/index.m3u8",
+   "image": "https://i.imgur.com/udTzwzu.png"
+  },
+  {
+   "title": "Match! Boets",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Boets",
+   "action": "video:http://stream.mcquack.net/112/index.m3u8",
+   "image": "https://i.imgur.com/DogOkA4.png"
+  },
+  {
+   "title": "Match! Boets · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Boets",
+   "action": "video:http://31.148.48.15/Match_Boec/index.m3u8",
+   "image": "https://i.imgur.com/DogOkA4.png"
+  },
+  {
+   "title": "Match! Igra",
+   "titleFooter": "720p",
+   "playerLabel": "Match! Igra",
+   "action": "video:http://31.148.48.15/Match_Igra_HD/index.m3u8",
+   "image": "https://i.imgur.com/5XWpF19.png"
+  },
+  {
+   "title": "Match! Igra · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Igra",
+   "action": "video:http://stream.mcquack.net/188/index.m3u8",
+   "image": "https://i.imgur.com/5XWpF19.png"
+  },
+  {
+   "title": "Match! Igra · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Igra",
+   "action": "video:http://31.148.48.15/Match_Igra/index.m3u8",
+   "image": "https://i.imgur.com/5XWpF19.png"
+  },
+  {
+   "title": "Match! Planeta",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Planeta",
+   "action": "video:https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/vhyMb9D.png"
+  },
+  {
+   "title": "Match! Premier",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Premier",
+   "action": "video:http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8",
+   "image": "https://i.imgur.com/GQPyHYK.png"
+  },
+  {
+   "title": "Match! Strana",
+   "titleFooter": "720p",
+   "playerLabel": "Match! Strana",
+   "action": "video:http://31.148.48.15/Match_Strana/index.m3u8",
+   "image": "https://i.imgur.com/X02s2UE.png"
+  },
+  {
+   "title": "Match! Strana · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Strana",
+   "action": "video:http://stream.mcquack.net/143/index.m3u8",
+   "image": "https://i.imgur.com/X02s2UE.png"
+  },
+  {
+   "title": "Match! Strana · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Strana",
+   "action": "video:http://ukr.ukrainske.tv/134/keytvainua/video.m3u8",
+   "image": "https://i.imgur.com/X02s2UE.png"
+  },
+  {
+   "title": "Match! Ultra",
+   "titleFooter": "1080p",
+   "playerLabel": "Match! Ultra",
+   "action": "video:http://31.148.5.241/kanal_3/index.m3u8",
+   "image": "https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg"
+  },
+  {
+   "title": "Match! Ultra · 2",
+   "titleFooter": "720p",
+   "playerLabel": "Match! Ultra",
+   "action": "video:http://stream.mcquack.net/169/index.m3u8",
+   "image": "https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg"
+  },
+  {
+   "title": "Match! Ultra · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Match! Ultra",
+   "action": "video:http://flussonic.linkintel.ru/match/index.m3u8",
+   "image": "https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg"
+  },
+  {
+   "title": "MMA-TV",
+   "titleFooter": "576p",
+   "playerLabel": "MMA-TV",
+   "action": "video:http://31.148.48.15/M1_Global/index.m3u8",
+   "image": "https://i.imgur.com/Qxco1eW.png"
+  },
+  {
+   "title": "MMA-TV.com",
+   "titleFooter": "576p",
+   "playerLabel": "MMA-TV.com",
+   "action": "video:https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/QhdxNsB.png"
+  },
+  {
+   "title": "MMA-TV.com · 2",
+   "playerLabel": "MMA-TV.com",
+   "action": "video:https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/QhdxNsB.png"
+  },
+  {
+   "title": "Moya Planeta",
+   "titleFooter": "1080p",
+   "playerLabel": "Moya Planeta",
+   "action": "video:http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/uIiAdBv.png"
+  },
+  {
+   "title": "Moya Planeta · 2",
+   "titleFooter": "720p",
+   "playerLabel": "Moya Planeta",
+   "action": "video:http://31.148.48.15/Moya_Planeta_HD/index.m3u8",
+   "image": "https://i.imgur.com/uIiAdBv.png"
+  },
+  {
+   "title": "Moya Planeta · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Moya Planeta",
+   "action": "video:http://stream.mcquack.net/124/index.m3u8",
+   "image": "https://i.imgur.com/uIiAdBv.png"
+  },
+  {
+   "title": "Ohotnik i rybolov",
+   "titleFooter": "1080p",
+   "playerLabel": "Ohotnik i rybolov",
+   "action": "video:http://stream.mcquack.net/194/index.m3u8",
+   "image": "https://i.imgur.com/Bj1jI7F.png"
+  },
+  {
+   "title": "Ohotnik i rybolov · 2",
+   "titleFooter": "576i",
+   "playerLabel": "Ohotnik i rybolov",
+   "action": "video:https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/Bj1jI7F.png"
+  },
+  {
+   "title": "Okhota i rybalka",
+   "titleFooter": "576p",
+   "playerLabel": "Okhota i rybalka",
+   "action": "video:http://stream.mcquack.net/155/index.m3u8",
+   "image": "https://i.imgur.com/nZwBaeW.png"
+  },
+  {
+   "title": "Okhota i rybalka · 2",
+   "playerLabel": "Okhota i rybalka",
+   "action": "video:https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/nZwBaeW.png"
+  },
+  {
+   "title": "Okko Futbol",
+   "titleFooter": "576p",
+   "playerLabel": "Okko Futbol",
+   "action": "video:http://178.124.179.122:8080/Setanta1/index.m3u8",
+   "image": "https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/8986.png"
+  },
+  {
+   "title": "Okko Prajm Sport",
+   "titleFooter": "1080p",
+   "playerLabel": "Okko Prajm Sport",
+   "action": "video:http://stream.mcquack.net/493/index.m3u8",
+   "image": "https://i.imgur.com/kQq5DMU.png"
+  },
+  {
+   "title": "Russian Extreme Ultra",
+   "titleFooter": "1440p",
+   "playerLabel": "Russian Extreme Ultra",
+   "action": "video:http://46.53.200.153:7777/play/test_krask1/index.m3u8",
+   "image": "https://i.imgur.com/Dk8VbAc.png"
+  },
+  {
+   "title": "Rybolov",
+   "titleFooter": "576p",
+   "playerLabel": "Rybolov",
+   "action": "video:http://stream.mcquack.net/264/index.m3u8",
+   "image": "https://i.imgur.com/wJMTcFS.png"
+  },
+  {
+   "title": "Sportivnyy",
+   "titleFooter": "1080p",
+   "playerLabel": "Sportivnyy",
+   "action": "video:https://live-3.otcnet.ru/sportivny/index.m3u8",
+   "image": "https://i.imgur.com/ujS6mMo.png"
+  },
+  {
+   "title": "UDAR",
+   "titleFooter": "1080p",
+   "playerLabel": "UDAR",
+   "action": "video:http://5.188.159.128:8070/udar/index.m3u8",
+   "image": "https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png"
+  },
+  {
+   "title": "UDAR · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "UDAR",
+   "action": "video:http://stream.mcquack.net/279/index.m3u8",
+   "image": "https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png"
+  },
+  {
+   "title": "viju+ Sport",
+   "titleFooter": "1080p",
+   "playerLabel": "viju+ Sport",
+   "action": "video:http://46.53.200.153:7777/play/a01l/index.m3u8",
+   "image": "https://i.imgur.com/fXESG0l.png"
+  },
+  {
+   "title": "viju+ Sport · 2",
+   "titleFooter": "576p",
+   "playerLabel": "viju+ Sport",
+   "action": "video:http://stream.mcquack.net/333/index.m3u8",
+   "image": "https://i.imgur.com/fXESG0l.png"
+  },
+  {
+   "title": "viju+ Sport · 3",
+   "titleFooter": "576p",
+   "playerLabel": "viju+ Sport",
+   "action": "video:https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/fXESG0l.png"
+  },
+  {
+   "title": "VITAL Drive",
+   "playerLabel": "VITAL Drive",
+   "action": "video:https://autopilot.catcast.tv/content/37909/index.m3u8",
+   "image": "https://i.imgur.com/XoR9zLh.png"
+  },
+  {
+   "title": "VITAL Drive · 2",
+   "playerLabel": "VITAL Drive",
+   "action": "video:https://tv.a21network.ru/stream/37909/index.m3u8",
+   "image": "https://i.imgur.com/XoR9zLh.png"
+  },
+  {
+   "title": "Астрахань.Ru Sport",
+   "titleFooter": "720p",
+   "playerLabel": "Астрахань.Ru Sport",
+   "action": "video:https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8",
+   "image": "https://i.imgur.com/BKaEtqL.png"
+  },
+  {
+   "title": "Русский Экстрим",
+   "titleFooter": "576p",
+   "playerLabel": "Русский Экстрим",
+   "action": "video:http://31.148.48.15/Russkiy_Ekstrim/index.m3u8",
+   "image": "https://i.imgur.com/hJK7mOW.png"
+  },
+  {
+   "title": "Сити Эдем АвтоГид",
+   "titleFooter": "not 24/7",
+   "playerLabel": "Сити Эдем АвтоГид",
+   "action": "video:https://cityeden.catcast.tv/content/47515/index.m3u8",
+   "image": "https://i.imgur.com/qpe8L27.png"
+  },
+  {
+   "title": "СТАРТ Триумф",
+   "titleFooter": "1080p",
+   "playerLabel": "СТАРТ Триумф",
+   "action": "video:https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8",
+   "image": "https://i.imgur.com/L9jTieL.png"
+  }
+ ]
+}

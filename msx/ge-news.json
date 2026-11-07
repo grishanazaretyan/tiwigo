@@ -1,0 +1,55 @@
+{
+ "type": "pages",
+ "headline": "Georgia · News",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": "BMG TV",
+   "playerLabel": "BMG TV",
+   "action": "video:https://tv.nucast.tv/lb/ge/bmg/index.m3u8",
+   "image": "https://i.imgur.com/vGLkTPA.png"
+  },
+  {
+   "title": "Formula",
+   "titleFooter": "1080p",
+   "playerLabel": "Formula",
+   "action": "video:https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8",
+   "image": "https://i.imgur.com/fsqBn8G.png"
+  },
+  {
+   "title": "Formula · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "Formula",
+   "action": "video:https://tv.cdn.xsg.ge/c4635/TVFormula/playlist.m3u8",
+   "image": "https://i.imgur.com/fsqBn8G.png"
+  },
+  {
+   "title": "Obieqtivi TV",
+   "playerLabel": "Obieqtivi TV",
+   "action": "video:https://live20.bozztv.com/dvrfl05/gin-obieqtivitv/index.m3u8",
+   "image": "https://i.imgur.com/Kqc8H8X.png"
+  },
+  {
+   "title": "Palitra News",
+   "titleFooter": "480p · not 24/7",
+   "playerLabel": "Palitra News",
+   "action": "video:https://live.palitranews.ge/hls/palitratv/index.m3u8",
+   "image": "https://i.imgur.com/BW95PMF.png"
+  },
+  {
+   "title": "Palitra News · 2",
+   "titleFooter": "480p · not 24/7",
+   "playerLabel": "Palitra News",
+   "action": "video:https://livestream.palitra.ge/hls/palitratv/index.m3u8",
+   "image": "https://i.imgur.com/BW95PMF.png"
+  }
+ ]
+}

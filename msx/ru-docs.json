@@ -1,0 +1,480 @@
+{
+ "type": "pages",
+ "headline": "Russia · Documentary & Science",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": ".sci-fi",
+   "titleFooter": "576p",
+   "playerLabel": ".sci-fi",
+   "action": "video:http://stream.mcquack.net/180/index.m3u8",
+   "image": "https://i.imgur.com/nSSUHcg.png"
+  },
+  {
+   "title": ".sci-fi · 2",
+   "titleFooter": "576p",
+   "playerLabel": ".sci-fi",
+   "action": "video:http://31.148.48.15/SONY_SCI_FI/index.m3u8",
+   "image": "https://i.imgur.com/nSSUHcg.png"
+  },
+  {
+   "title": "365 days TV",
+   "titleFooter": "576p",
+   "playerLabel": "365 days TV",
+   "action": "video:http://stream.mcquack.net/70/index.m3u8",
+   "image": "https://i.imgur.com/NfnAiTR.png"
+  },
+  {
+   "title": "365 days TV · 2",
+   "titleFooter": "576p",
+   "playerLabel": "365 days TV",
+   "action": "video:https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/NfnAiTR.png"
+  },
+  {
+   "title": "365 days TV · 3",
+   "titleFooter": "576p",
+   "playerLabel": "365 days TV",
+   "action": "video:https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/NfnAiTR.png"
+  },
+  {
+   "title": "Animal Planet",
+   "titleFooter": "1080p",
+   "playerLabel": "Animal Planet",
+   "action": "video:http://stream.mcquack.net/114/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
+  },
+  {
+   "title": "Arsenal",
+   "titleFooter": "576p",
+   "playerLabel": "Arsenal",
+   "action": "video:https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/DBpVeb0.png"
+  },
+  {
+   "title": "ART",
+   "titleFooter": "576p",
+   "playerLabel": "ART",
+   "action": "video:http://89.104.114.24:8080/art/index.m3u8",
+   "image": "https://optim.tildacdn.com/tild3134-3836-4338-a138-666666653363/-/format/webp/__.png.webp"
+  },
+  {
+   "title": "ART · 2",
+   "titleFooter": "576p",
+   "playerLabel": "ART",
+   "action": "video:http://185.23.80.23:8080/ART/index.m3u8",
+   "image": "https://optim.tildacdn.com/tild3134-3836-4338-a138-666666653363/-/format/webp/__.png.webp"
+  },
+  {
+   "title": "Da Vinci",
+   "titleFooter": "576p",
+   "playerLabel": "Da Vinci",
+   "action": "video:http://stream.mcquack.net/238/index.m3u8",
+   "image": "https://i.imgur.com/V8AUJP6.png"
+  },
+  {
+   "title": "Da Vinci · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Da Vinci",
+   "action": "video:https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/V8AUJP6.png"
+  },
+  {
+   "title": "Da Vinci · 3",
+   "playerLabel": "Da Vinci",
+   "action": "video:https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/V8AUJP6.png"
+  },
+  {
+   "title": "Doctor",
+   "titleFooter": "1080p",
+   "playerLabel": "Doctor",
+   "action": "video:http://31.148.48.15/Doktor/index.m3u8",
+   "image": "https://i.imgur.com/VNirxxn.png"
+  },
+  {
+   "title": "Doctor · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Doctor",
+   "action": "video:http://178.134.1.158:8081/doktor/index.m3u8",
+   "image": "https://i.imgur.com/VNirxxn.png"
+  },
+  {
+   "title": "Doctor · 3",
+   "titleFooter": "576i",
+   "playerLabel": "Doctor",
+   "action": "video:https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/VNirxxn.png"
+  },
+  {
+   "title": "English Class HD",
+   "titleFooter": "1080p",
+   "playerLabel": "English Class HD",
+   "action": "video:http://31.148.48.15/English_club_TV_HD/index.m3u8",
+   "image": "https://i.imgur.com/gst7wW7.png"
+  },
+  {
+   "title": "Glazami Turista",
+   "titleFooter": "576i",
+   "playerLabel": "Glazami Turista",
+   "action": "video:https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/GXJKWdy.png"
+  },
+  {
+   "title": "Investigation Discovery",
+   "titleFooter": "1080p",
+   "playerLabel": "Investigation Discovery",
+   "action": "video:http://stream.mcquack.net/205/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
+  },
+  {
+   "title": "Istoriya",
+   "titleFooter": "576p",
+   "playerLabel": "Istoriya",
+   "action": "video:https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/eEjPail.png"
+  },
+  {
+   "title": "Istoriya · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Istoriya",
+   "action": "video:http://31.148.48.15/Istoriya/index.m3u8",
+   "image": "https://i.imgur.com/eEjPail.png"
+  },
+  {
+   "title": "Ministerstvo idey",
+   "titleFooter": "1080p",
+   "playerLabel": "Ministerstvo idey",
+   "action": "video:https://live-minidey.cdnvideo.ru/minidey-srt/minidey/playlist.m3u8",
+   "image": "https://i.imgur.com/3P0uvHD.png"
+  },
+  {
+   "title": "Moya stikhiya HD",
+   "titleFooter": "1080p",
+   "playerLabel": "Moya stikhiya HD",
+   "action": "video:http://stream.mcquack.net/141/index.m3u8",
+   "image": "https://i.imgur.com/Sl8c9eB.png"
+  },
+  {
+   "title": "Nano",
+   "titleFooter": "1080p",
+   "playerLabel": "Nano",
+   "action": "video:http://185.23.80.23:8080/NANO_HD/index.m3u8",
+   "image": "https://i.imgur.com/dYj3XDa.png"
+  },
+  {
+   "title": "Nano · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Nano",
+   "action": "video:http://stream.mcquack.net/419/index.m3u8",
+   "image": "https://i.imgur.com/dYj3XDa.png"
+  },
+  {
+   "title": "Nano · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Nano",
+   "action": "video:http://s1.tv-nano.com/Nano_rec/index.m3u8",
+   "image": "https://i.imgur.com/dYj3XDa.png"
+  },
+  {
+   "title": "National Geographic",
+   "titleFooter": "1080p",
+   "playerLabel": "National Geographic",
+   "action": "video:http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
+  },
+  {
+   "title": "National Geographic · 2",
+   "titleFooter": "576p",
+   "playerLabel": "National Geographic",
+   "action": "video:http://stream.mcquack.net/116/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
+  },
+  {
+   "title": "National Geographic · 3",
+   "titleFooter": "576p",
+   "playerLabel": "National Geographic",
+   "action": "video:https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
+  },
+  {
+   "title": "National Geographic Wild",
+   "titleFooter": "576p",
+   "playerLabel": "National Geographic Wild",
+   "action": "video:https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"
+  },
+  {
+   "title": "Nauka",
+   "titleFooter": "1080p",
+   "playerLabel": "Nauka",
+   "action": "video:http://31.148.48.15/Nauka_2.0/index.m3u8",
+   "image": "https://i.imgur.com/ZZxzueO.png"
+  },
+  {
+   "title": "Nauka · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Nauka",
+   "action": "video:http://stream.mcquack.net/125/index.m3u8",
+   "image": "https://i.imgur.com/ZZxzueO.png"
+  },
+  {
+   "title": "Nauka · 3",
+   "playerLabel": "Nauka",
+   "action": "video:https://vod.tuva.ru/nauka2/index.m3u8",
+   "image": "https://i.imgur.com/ZZxzueO.png"
+  },
+  {
+   "title": "NTV Mir",
+   "titleFooter": "576p",
+   "playerLabel": "NTV Mir",
+   "action": "video:http://5.188.159.128:8070/ntvmir_TV/index.m3u8",
+   "image": "https://i.imgur.com/pUcV46F.png"
+  },
+  {
+   "title": "NTV Mir · 2",
+   "playerLabel": "NTV Mir",
+   "action": "video:https://streaming.thestream.cyou/live/213.m3u8",
+   "image": "https://i.imgur.com/pUcV46F.png"
+  },
+  {
+   "title": "RT Documentary English",
+   "titleFooter": "1080p",
+   "playerLabel": "RT Documentary English",
+   "action": "video:https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8",
+   "image": "https://i.imgur.com/aeu5zIC.png"
+  },
+  {
+   "title": "RT Documentary English · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "RT Documentary English",
+   "action": "video:https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8",
+   "image": "https://i.imgur.com/aeu5zIC.png"
+  },
+  {
+   "title": "RT Documentary English · 3",
+   "titleFooter": "1080p",
+   "playerLabel": "RT Documentary English",
+   "action": "video:https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8",
+   "image": "https://i.imgur.com/aeu5zIC.png"
+  },
+  {
+   "title": "RTG TV HD",
+   "titleFooter": "1080p",
+   "playerLabel": "RTG TV HD",
+   "action": "video:http://stream.mcquack.net/164/index.m3u8",
+   "image": "https://i.imgur.com/ZMKPAho.png"
+  },
+  {
+   "title": "RTG TV HD · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "RTG TV HD",
+   "action": "video:http://46.53.200.153:7777/play/a00u/index.m3u8",
+   "image": "https://i.imgur.com/ZMKPAho.png"
+  },
+  {
+   "title": "RTG TV HD · 3",
+   "titleFooter": "720p",
+   "playerLabel": "RTG TV HD",
+   "action": "video:http://31.148.48.15/RTG_HD/index.m3u8",
+   "image": "https://i.imgur.com/ZMKPAho.png"
+  },
+  {
+   "title": "Russia-K",
+   "titleFooter": "1080p",
+   "playerLabel": "Russia-K",
+   "action": "video:https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png"
+  },
+  {
+   "title": "Russia-K · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "Russia-K",
+   "action": "video:https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png"
+  },
+  {
+   "title": "Russia-K · 3",
+   "titleFooter": "1080p",
+   "playerLabel": "Russia-K",
+   "action": "video:https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/kultura-hd/index.m3u8",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png"
+  },
+  {
+   "title": "Smotrim 100% Fakty",
+   "titleFooter": "720p",
+   "playerLabel": "Smotrim 100% Fakty",
+   "action": "video:https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8",
+   "image": "https://i.imgur.com/dB3cJzO.png"
+  },
+  {
+   "title": "Teatr",
+   "titleFooter": "576p",
+   "playerLabel": "Teatr",
+   "action": "video:http://hls127.freeott.top:8080/Teatr/video.m3u8",
+   "image": "https://i.imgur.com/nc2ijCH.png"
+  },
+  {
+   "title": "Teatr · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Teatr",
+   "action": "video:http://31.148.48.15/Sochi_HD/index.m3u8",
+   "image": "https://i.imgur.com/nc2ijCH.png"
+  },
+  {
+   "title": "Teatr · 3",
+   "titleFooter": "576p",
+   "playerLabel": "Teatr",
+   "action": "video:http://31.148.48.15/Sochi_HD/video.m3u8",
+   "image": "https://i.imgur.com/nc2ijCH.png"
+  },
+  {
+   "title": "Terra",
+   "titleFooter": "720p",
+   "playerLabel": "Terra",
+   "action": "video:http://31.148.48.15/Terra_HD/index.m3u8",
+   "image": "https://i.imgur.com/ZxUjCpF.png"
+  },
+  {
+   "title": "Terra · 2",
+   "titleFooter": "576p",
+   "playerLabel": "Terra",
+   "action": "video:http://31.148.48.15/Terra/index.m3u8",
+   "image": "https://i.imgur.com/ZxUjCpF.png"
+  },
+  {
+   "title": "Top Secret",
+   "titleFooter": "576p",
+   "playerLabel": "Top Secret",
+   "action": "video:http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8",
+   "image": "https://i.imgur.com/HM4xy4G.png"
+  },
+  {
+   "title": "Travel+Adventure HD",
+   "titleFooter": "1080p",
+   "playerLabel": "Travel+Adventure HD",
+   "action": "video:http://stream.mcquack.net/206/index.m3u8",
+   "image": "https://i.imgur.com/AlpdXC4.png"
+  },
+  {
+   "title": "Travel+Adventure HD · 2",
+   "titleFooter": "1080p",
+   "playerLabel": "Travel+Adventure HD",
+   "action": "video:http://77.232.131.211/TravelAdventureHD/index.m3u8",
+   "image": "https://i.imgur.com/AlpdXC4.png"
+  },
+  {
+   "title": "Travel+Adventure HD · 3",
+   "titleFooter": "1080p",
+   "playerLabel": "Travel+Adventure HD",
+   "action": "video:http://31.148.48.15/Travel_Adventure_HD/index.m3u8",
+   "image": "https://i.imgur.com/AlpdXC4.png"
+  },
+  {
+   "title": "viju Explore",
+   "titleFooter": "576p",
+   "playerLabel": "viju Explore",
+   "action": "video:http://stream.mcquack.net/239/index.m3u8",
+   "image": "https://i.imgur.com/EGIpLPu.png"
+  },
+  {
+   "title": "viju Explore · 2",
+   "titleFooter": "576p",
+   "playerLabel": "viju Explore",
+   "action": "video:https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/EGIpLPu.png"
+  },
+  {
+   "title": "viju Explore · 3",
+   "titleFooter": "576p",
+   "playerLabel": "viju Explore",
+   "action": "video:http://46.53.200.153:7777/play/a01i/index.m3u8",
+   "image": "https://i.imgur.com/EGIpLPu.png"
+  },
+  {
+   "title": "viju History",
+   "titleFooter": "576p",
+   "playerLabel": "viju History",
+   "action": "video:http://178.124.179.122:8080/HistoryHD/index.m3u8",
+   "image": "https://i.imgur.com/FqWkeXb.png"
+  },
+  {
+   "title": "viju History · 2",
+   "titleFooter": "576p",
+   "playerLabel": "viju History",
+   "action": "video:http://stream.mcquack.net/101/index.m3u8",
+   "image": "https://i.imgur.com/FqWkeXb.png"
+  },
+  {
+   "title": "viju History · 3",
+   "titleFooter": "576p",
+   "playerLabel": "viju History",
+   "action": "video:https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/FqWkeXb.png"
+  },
+  {
+   "title": "viju Nature",
+   "titleFooter": "576p",
+   "playerLabel": "viju Nature",
+   "action": "video:https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv",
+   "image": "https://i.imgur.com/8BPZ18l.png"
+  },
+  {
+   "title": "viju Nature · 2",
+   "titleFooter": "576p",
+   "playerLabel": "viju Nature",
+   "action": "video:http://46.53.200.153:7777/play/a01k/index.m3u8",
+   "image": "https://i.imgur.com/8BPZ18l.png"
+  },
+  {
+   "title": "viju Nature · 3",
+   "playerLabel": "viju Nature",
+   "action": "video:https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8",
+   "image": "https://i.imgur.com/8BPZ18l.png"
+  },
+  {
+   "title": "viju+ Planet HD",
+   "titleFooter": "1080p",
+   "playerLabel": "viju+ Planet HD",
+   "action": "video:http://stream.mcquack.net/240/index.m3u8",
+   "image": "https://i.imgur.com/9Weqdsk.png"
+  },
+  {
+   "title": "Vkus",
+   "titleFooter": "576p",
+   "playerLabel": "Vkus",
+   "action": "video:http://178.134.1.158:8081/vkus/index.m3u8",
+   "image": "https://www.cableman.ru/sites/default/files/logo%20%287%29%20%281%29.png"
+  },
+  {
+   "title": "Кто есть Кто",
+   "titleFooter": "576p",
+   "playerLabel": "Кто есть Кто",
+   "action": "video:http://31.148.48.15/Kto_est_kto/index.m3u8",
+   "image": "https://i.imgur.com/PmD17UQ.png"
+  },
+  {
+   "title": "Сити Эдем КиноДок",
+   "titleFooter": "not 24/7",
+   "playerLabel": "Сити Эдем КиноДок",
+   "action": "video:https://cityeden.catcast.tv/content/38354/index.m3u8",
+   "image": "https://i.imgur.com/itRbMX3.png"
+  },
+  {
+   "title": "Телепутешествия",
+   "titleFooter": "576p",
+   "playerLabel": "Телепутешествия",
+   "action": "video:http://31.148.48.15/Teleputeshestviya/index.m3u8",
+   "image": "https://i.imgur.com/eXJm1n3.png"
+  }
+ ]
+}

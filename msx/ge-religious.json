@@ -1,0 +1,21 @@
+{
+ "type": "pages",
+ "headline": "Georgia · Religious",
+ "template": {
+  "type": "separate",
+  "layout": "0,0,2,2",
+  "color": "msx-glass",
+  "imageFiller": "fit",
+  "imageWidth": 1.4,
+  "imageHeight": 0.9,
+  "icon": "msx-white-soft:live-tv"
+ },
+ "items": [
+  {
+   "title": "Ertsulovneba",
+   "playerLabel": "Ertsulovneba",
+   "action": "video:https://stream.sstv.ge/live/sstv/playlist.m3u8",
+   "image": "https://i.imgur.com/KuuODMM.png"
+  }
+ ]
+}
